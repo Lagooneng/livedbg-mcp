@@ -1,0 +1,15 @@
+{
+  "name": "livedbg-mcp",
+  "displayName": "livedbg",
+  "version": "0.1.0",
+  "description": "실행 중인 C++ 프로세스를 PDB 로 읽고 디버깅하는 MCP 서버 (cdb + DIA). 언리얼 natvis 자동 로드.",
+  "author": { "name": "Lagooneng" },
+  "license": "MIT",
+  "keywords": ["debugger", "cdb", "pdb", "dia", "c++", "unreal"],
+  "mcpServers": {
+    "livedbg": {
+      "command": "uv",
+      "args": ["run", "--directory", "${CLAUDE_PLUGIN_ROOT}", "livedbg-mcp"]
+    }
+  }
+}

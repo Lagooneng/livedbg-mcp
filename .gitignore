@@ -1,0 +1,13 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# 테스트 타깃 빌드 산출물 (tests/fixtures/build.ps1)
+tests/fixtures/bin/
